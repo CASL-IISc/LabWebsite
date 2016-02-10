@@ -1,0 +1,43 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+
+      <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="/">Home</a>
+      <a class="sidebar-nav-item{% if page.url == '/Publications.html' %} active{% endif %}" href="/Publications.html">Publications</a>
+      <a class="sidebar-nav-item{% if page.url == '/People.html' %} active{% endif %}" href="/People.html">People</a>
+      <a class="sidebar-nav-item{% if page.url == '/Current-Research.html' %} active{% endif %}" href="/Current-Research.html">Current Research Work</a>
+      <a class="sidebar-nav-item{% if page.url == '/Misc.html' %} active{% endif %}" href="/Misc.html">Miscellaneous</a>
+      <a class="sidebar-nav-item{% if page.url == '/Contact.html' %} active{% endif %}" href="/Contact.html">Contact</a>
+      
+      {% comment %}
+        The code below dynamically generates a sidebar nav of pages with
+        `layout: page` in the front-matter. See readme for usage.
+        
+      
+
+      {% assign pages_list = site.pages %}
+      {% for node in pages_list %}
+        {% if node.title != null %}
+          {% if node.layout == "page" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.url }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      {% endcomment %}
+
+      
+
+    </nav>
+
+    <p>&copy; {{ site.time | date: '%Y' }}. CASL<br> Computer Science and Automation </p>
+  </div>
+</div>
