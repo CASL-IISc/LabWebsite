@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications
+title: Facilities
 ---
 
 <p class="message">

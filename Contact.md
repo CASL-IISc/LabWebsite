@@ -23,7 +23,7 @@ Karnataka 560012</pre>
 
 ### Map
 <iframe
-  width="600"
+  width="100%"
   height="450"
   frameborder="7" style="border:0"
   src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC0YQNCo7EsalG5qNJYmLoDsAwziyn48ng

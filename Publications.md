@@ -6,20 +6,20 @@ title: Publications
 
 <h3><u>Selected Recent Publications</u></h3>
 
-* [Prudent Memory Reclamation in Procrastination based Synchronization](){:target="_blank"}{:target="_blank"}<br>
+* [Prudent Memory Reclamation in Procrastination based Synchronization](){:target="_blank"}<br>
 <b>Aravinda Prasad, K Gopinath</b><br> ASPLOS 2016.
 
-* [Improving Power and Memory-Hotplug with a Migration Friendly Buddy Allocator](){:target="_blank"}{:target="_blank"}<br>
+* [Improving Power and Memory-Hotplug with a Migration Friendly Buddy Allocator](){:target="_blank"}<br>
 <b>Ashish Panwar and Kanchi Gopinath</b><br> HiPC 2015
 
-* [Combining Concern Input with Program Analysis for Bloat Detection](){:target="_blank"}{:target="_blank"}<br>
+* [Combining Concern Input with Program Analysis for Bloat Detection](){:target="_blank"}<br>
 <b>Suparna Bhattacharya, K. Gopinath, Mangala Gowri Nanda</b><br> OOPSLA 2013
 
 * [Subtle Topic Models and Discovering Subtly Manifested Software Concerns Automatically](http://drona.csa.iisc.ernet.in/~gopi/docs/icml13.pdf){:target="_blank"}{:target="_blank"}<br>
 <b>Mrinal Das, Suparna Bhattacharya, Chiranjib Bhattacharyya, Gopinath K</b><br> ICML 2013
 
 
-* [Does Lean Imply Green? A Study of Power-Performance Implications of Java Runtime Bloat](http://drona.csa.iisc.ernet.in/~gopi/docs/sig12-bhattacharya.pdf){:target="_blank"}{:target="_blank"}<br>
+* [Does Lean Imply Green? A Study of Power-Performance Implications of Java Runtime Bloat](http://drona.csa.iisc.ernet.in/~gopi/docs/sig12-bhattacharya.pdf){:target="_blank"}<br>
 <b>Suparna Bhattacharya, Karthick Rajamani, K Gopinath, Manish Gupta</b><br> SIGMETRICS, Jun 2012
  
 

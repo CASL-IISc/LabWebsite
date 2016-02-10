@@ -34,10 +34,85 @@ His research interests are primarily in the computer systems area (Operating Sys
 
 ### PhD
 
+
+<table>
+ 	<tr >
+ 		<td>
+	 		&#9676;
+	 	</td>
+	 	<td>
+	 		<img src='images/students/subhendu.bhadra.jpg' width='90' height='100' border='1' />
+	 	</td>
+	 	<td>
+		 	<a href="/404.html" target="_blank"><b>Subhendu Bhadra</b></a><br>
+		 	<script language='javascript'>writeid('subhendu.bhadra');</script><br>
+		 	Research Area:
+	 	</td>
+	 </tr>
+</table>
+
 ### MSc
+
+ <table>
+ 	<tr>
+ 		<td>
+	 		&#9676;
+	 	</td>
+	 	<td>
+	 		<img src='images/students/patel.naman.jpg' width='90' height='100' border='1' />
+	 	</td>
+	 	<td>
+		 	<a href="/404.html" target="_blank"><b>Naman Patel</b></a><br>
+		 	<script language='javascript'>writeid('patel.naman');</script><br>
+		 	Research Area: 
+	 	</td>
+	 </tr>
+ 	<tr>
+ 		<td>
+	 		&#9676;
+	 	</td>
+	 	<td>
+	 		<img src='images/students/arpith.k.jpg' width='90' height='100' border='1' />
+	 	</td>
+	 	<td>
+		 	<a href="http://arpith.xyz" target="_blank"><b>Arpith K</b></a><br>
+		 	<script language='javascript'>writeid('arpith.k');</script><br>
+		 	Research Area: File Systems
+	 	</td>
+	 </tr>
+</table>
+
 
 ### ME
 
-***
+<table>
+ 	<tr>
+ 		<td>
+	 		&#9676;
+	 	</td>
+	 	<td>
+	 		<img src='images/students/jawad.t.jpg' width='90' height='100' border='1' />
+	 	</td>
+	 	<td>
+		 	<a href="/404.html" target="_blank"><b>Jawad T</b></a><br>
+		 	<script language='javascript'>writeid('jawad.t');</script><br>
+		 	Research Area: Operating System Security
+	 	</td>
+	 </tr>
 
-## Past Students
+	 <tr>
+ 		<td>
+	 		&#9676;
+	 	</td>
+	 	<td>
+	 		<img src='images/students/muhammed.fazal.jpg' width='90' height='100' border='1' />
+	 	</td>
+	 	<td>
+		 	<a href="/404.html" target="_blank"><b>Muhammed Fazal</b></a><br>
+		 	<script language='javascript'>writeid('muhammed.fazal');</script><br>
+		 	Research Area: Operating System Security
+	 	</td>
+	 </tr>
+</table>
+
+***
