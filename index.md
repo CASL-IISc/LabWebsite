@@ -27,7 +27,7 @@ The following are some of the areas in which we work on:
 ## Latest Publications
 * [Prudent Memory Reclamation in Procrastination based Synchronization]()
 <b>Aravinda Prasad, K Gopinath</b> ASPLOS 2016
-* [More ->](Publications.html)
+* [More &#8608;](Publications.html)
 
 ***
 
@@ -35,7 +35,7 @@ The following are some of the areas in which we work on:
 
 * 40 Node Cluster each with 3 TB HDD, 8-core & 8 GB RAM
 * CASL Wi-Fi
-* [More ->](Facilities.html)
+* [More &#8608;](Facilities.html)
 
 ***
 
