@@ -12,13 +12,15 @@ email: arpith.k@csa.iisc.ernet.in
 tagline:      'Computer Architecture and Systems Lab'
 description:  'Computer Architecture and Systems Lab'
 
-baseurl: "" # the subpath of your site, e.g. /blog
-
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+# the base hostname & protocol for your site
+# do not put `/` at the wnd of url
+url: "http://127.0.0.1:4000" 
 
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
+permalink: pretty
 
 author:
   name:           'Arpith K'

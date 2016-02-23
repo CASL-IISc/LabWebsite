@@ -2,7 +2,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="/">
+        <a href="{{ site.url }}">
           {{ site.title }}
         </a>
       </h1>
@@ -11,12 +11,12 @@
 
     <nav class="sidebar-nav">
 
-      <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="/">Home</a>
-      <a class="sidebar-nav-item{% if page.url == '/Publications.html' %} active{% endif %}" href="/Publications.html">Publications</a>
-      <a class="sidebar-nav-item{% if page.url == '/People.html' %} active{% endif %}" href="/People.html">People</a>
-      <a class="sidebar-nav-item{% if page.url == '/Current-Research.html' %} active{% endif %}" href="/Current-Research.html">Current Research Work</a>
-      <a class="sidebar-nav-item{% if page.url == '/Misc.html' %} active{% endif %}" href="/Misc.html">Miscellaneous</a>
-      <a class="sidebar-nav-item{% if page.url == '/Contact.html' %} active{% endif %}" href="/Contact.html">Contact</a>
+      <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ site.url }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == '/Publications.html' %} active{% endif %}" href="{{ site.url }}/Publications">Publications</a>
+      <a class="sidebar-nav-item{% if page.url == '/People.html' %} active{% endif %}" href="{{ site.url }}/People">People</a>
+      <a class="sidebar-nav-item{% if page.url == '/Current-Research.html' %} active{% endif %}" href="{{ site.url }}/Current-Research">Current Research Work</a>
+      <a class="sidebar-nav-item{% if page.url == '/Misc.html' %} active{% endif %}" href="{{ site.url }}/Misc">Miscellaneous</a>
+      <a class="sidebar-nav-item{% if page.url == '/Contact.html' %} active{% endif %}" href="{{ site.url }}/Contact">Contact</a>
       
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
