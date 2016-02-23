@@ -54,7 +54,7 @@ His research interests are primarily in the computer systems area (Operating Sys
 </table>
 
 
-### MSc Engg
+### M.Sc. Engg
 
 <table>
 {% for member in site.data.msc %}
@@ -73,6 +73,7 @@ His research interests are primarily in the computer systems area (Operating Sys
 	 </tr>
 {% endfor %}
 </table>
+
 
 ### M.E.
 
@@ -94,8 +95,46 @@ His research interests are primarily in the computer systems area (Operating Sys
 {% endfor %}
 </table>
 
-### Project Staff
 
 ### Research Assistant
+
+<table>
+{% for member in site.data.ra %}
+ 	<tr >
+ 		<td>
+	 		&#8281;
+	 	</td>
+	 	<td>
+	 		<img src='{{ site.url }}/images/ra/{{ member.id }}.jpg' width='90' height='100' border='1' />
+	 	</td>
+	 	<td>
+		 	<a href="{{ member.homepage }}" target="_blank"><b>{{ member.name }}</b></a><br>
+		 	<script language='javascript'>writeid('{{ member.id }}', '{{ member.domain }}');</script><br>
+		 	Research Area: {{ member.research }}
+	 	</td>
+	 </tr>
+{% endfor %}
+</table>
+
+
+### Project Staff
+
+<table>
+{% for member in site.data.project %}
+ 	<tr >
+ 		<td>
+	 		&#8281;
+	 	</td>
+	 	<td>
+	 		<img src='{{ site.url }}/images/project/{{ member.id }}.jpg' width='90' height='100' border='1' />
+	 	</td>
+	 	<td>
+		 	<a href="{{ member.homepage }}" target="_blank"><b>{{ member.name }}</b></a><br>
+		 	<script language='javascript'>writeid('{{ member.id }}', '{{ member.domain }}');</script><br>
+		 	Research Area: {{ member.research }}
+	 	</td>
+	 </tr>
+{% endfor %}
+</table>
 
 ***
