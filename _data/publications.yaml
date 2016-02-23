@@ -1,0 +1,106 @@
+- authors: Aravinda Prasad, K Gopinath
+  name: Prudent Memory Reclamation in Procrastination based Synchronization
+  conference: ASPLOS 2016.
+  link: javascript:void(0)
+
+- authors: Ashish Panwar and Kanchi Gopinath
+  name: Improving Power and Memory-Hotplug with a Migration Friendly Buddy Allocator
+  conference: HiPC 2015.
+  link: javascript:void(0)
+
+- authors: Suparna Bhattacharya, K. Gopinath, Mangala Gowri Nanda
+  name: Combining Concern Input with Program Analysis for Bloat Detection
+  conference: OOPSLA 2013.
+  link: javascript:void(0)
+
+- authors: Mrinal Das, Suparna Bhattacharya, Chiranjib Bhattacharyya, Gopinath K
+  name: Subtle Topic Models and Discovering Subtly Manifested Software Concerns Automatically
+  conference: ICML 2013   
+  link:  http://drona.csa.iisc.ernet.in/~gopi/docs/icml13.pdf
+
+- authors: Suparna Bhattacharya, Karthick Rajamani, K Gopinath, Manish Gupta
+  name: Does Lean Imply Green? A Study of Power-Performance Implications of Java Runtime Bloat
+  conference: SIGMETRICS, Jun 2012
+  link:  http://drona.csa.iisc.ernet.in/~gopi/docs/sig12-bhattacharya.pdf
+
+- authors: Pankaj Pipada, Achintya Kundu, K Gopinath, Chiranjib Bhattacharyya, Sai Susarla, Nagesh P. C.
+  name: "LoadIQ: Online learning to label program phases using storage traces"
+  conference: HotStorage Jun 2012
+  link:  http://drona.csa.iisc.ernet.in/~gopi/docs/loadiq12.pdf
+
+- authors: Suparna Bhattacharya, K. Gopinath, Karthick Rajamani, and Manish Gupta
+  name: Software Bloat and Wasted Joules. Is Modularity a Hurdle to Green Software
+  conference: IEEE Computer, Sep'2011
+  link:  http://drona.csa.iisc.ernet.in/~gopi/docs/ieeecomputer11.pdf
+
+- authors: Suparna Bhattacharya, Karthick Rajamani, K Gopinath, Manish Gupta,
+  name: The Interplay of Software Bloat, Hardware Energy Proportionality and System Bottlenecks
+  conference: HotPower 2011
+  link:  http://drona.csa.iisc.ernet.in/~gopi/docs/hotpower2011.pdf
+
+- authors: Suparna Bhattacharya, K. Gopinath
+  name: Virtually Cool Ternary Content Addressable Memory
+  conference: HotOS 2011
+  link:  http://drona.csa.iisc.ernet.in/~gopi/docs/hotos2011.pdf
+
+
+- authors: Lawrence L. You, Kristal T. Pollack, Darrell D.E. Long, K. Gopinath,
+  name: "PRESIDIO: A Framework for Efficient Archival Data Storage"
+  conference: ACM Transactions on Storage, Vol 7,2, Jul 2011.
+  link:  http://drona.csa.iisc.ernet.in/~gopi/docs/a6-you.pdf
+
+- authors: Suparna Bhattacharya, Mangala Gowri Nanda, K. Gopinath, Manish Gupta.
+  name: Reuse, recyle to debloat software
+  conference: ECOOP 2011.
+  link:  http://drona.csa.iisc.ernet.in/~gopi/docs/ecoop2011.pdf
+
+- authors: Neeraja J. Yadwadkar, Chiranjib Bhattacharyya, K. Gopinath, Thirumale Niranjan, Sai Susarla
+  name: Discovery of Application Workloads from Network File Traces
+  conference: 8th USENIX Conference on File and Storage Technologies (FAST '10), Feb 2010.
+  link:  http://drona.csa.iisc.ernet.in/~gopi/docs/trace-hmm.final.pdf
+
+- authors: K. Gopinath, Jon Elerath, Darrell Long
+  name: Reliability Modelling of Disk Subsystems with Probabilistic Model Checking
+  conference: presented at Dagstuhl Seminar on "Quantative and Qualitative Analysis of Network Protocols", Jan 2010. Also, Technical Report UCSC-SSRC-09-05, May 2009.
+  link:  http://drona.csa.iisc.ernet.in/~gopi/docs/dagstuhl.pdf
+
+- authors: K. Gopinath
+  name: Static Program Analysis for Security
+  conference: in The Compiler Design Handbook, Optimizations and Machine Code Generation, CRC Press,2007.   
+  link:  http://drona.csa.iisc.ernet.in/~gopi/docs/staticanalysis4security.pdf
+
+- authors: V H Gupta, K. Gopinath
+  name: An Information Theoretic Secure Verifiable Secret Redistribution Protocol for Long-term Archival Storage
+  conference: Fourth International IEEE Security In Storage Workshop (SISW 2007), San Diego, CA Sep 27, 2007.
+  link:  http://drona.csa.iisc.ernet.in/~gopi/docs/ArchivalStorage-siswf.pdf
+
+- authors: V Sriram, Ganesh Narayan, K Gopinath
+  name: SAFIUS - A secure and accountable filesystem over untrusted storage
+  conference: Fourth International IEEE Security In Storage Workshop (SISW 2007), San Diego, CA Sep 27, 2007.
+  link:  http://drona.csa.iisc.ernet.in/~gopi/docs/safius-final.pdf
+
+- authors: Sandhya G, K. Gopinath
+  name: Design and Analysis of Rate Aware Ad Hoc 802.11 Networks
+  conference: International Conference on Distributed Computing and Networking (ICDCN 2006), Guwahati, Dec'06, LNCS4308
+  link:  http://drona.csa.iisc.ernet.in/~gopi/docs/sandhya.pdf
+
+- authors: KN Gopinath, Pravin Bhagwat, K. Gopinath
+  name: An Empirical Analysis of Heterogeneity in IEEE 802.11 MAC Protocol Implementations and its Implications
+  conference: The First ACM International Workshop on Wireless Network Testbeds, Experimental evaluation and CHaracterization (WiNTECH 2006), ACM MobiCom 2006, Los Angeles, Sep'2006.
+  link:  http://drona.csa.iisc.ernet.in/~gopi/docs/MACbeh-f.pdf
+
+- authors: M C Dharmadeep, K. Gopinath
+  name: Proactive leader election in Asynchronous Shared Memory systems
+  conference: ATVA (Automated Technology for Verification and Analysis), Oct 2006, Beijing, LNCS4218
+  link:  http://drona.csa.iisc.ernet.in/~gopi/docs/ATVA06f.pdf
+
+- authors: Rahul Simha, K. Gopinath
+  name: Insurable Storage Services, Creating a Marketplace for Long-Term Document Archival
+  conference: International Conference on Computational Science (3) 2006, Reading, UK.
+  link:  http://drona.csa.iisc.ernet.in/~gopi/docs/insurableLTstorage.pdf
+
+
+- authors: Amitabha Roy, K. Gopinath
+  name: Improved Probabilistic Models for 802.11 Protocol Verification
+  conference: Computer Aided Verification (CAV) 2005, Edinburgh, LNCS 3576.  
+  link:  http://drona.csa.iisc.ernet.in/~gopi/docs/cavf.pdf

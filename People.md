@@ -4,14 +4,15 @@ title: People
 ---
 <script language="javascript">
 
-	function nospam(id) {
+	function nospam(id, domain) {
 	    var at = "@";
-	    var domain = "csa.iisc.ernet.in";
+	    if(domain.localeCompare("iisc") == 0)
+	    	domain = "csa.iisc.ernet.in";
 	    return id + at + domain;
 	}
 
-	function writeid(id) {
-	    document.write("<a href=\"mailto:" + nospam(id) +"\">" + nospam(id) + "</a>");
+	function writeid(id, domain) {
+	    document.write("<a href=\"mailto:" + nospam(id, domain) +"\">" + nospam(id, domain) + "</a>");
 }
 </script>
 
@@ -20,7 +21,7 @@ title: People
 
 ## Convenor
 * [K. Gopinath (कांचि गोपीनाथ)](http://drona.csa.iisc.ernet.in/~gopi/){:target="_blank"}<br>
-<script language='javascript'>writeid('gopi');</script><br>
+<script language='javascript'>writeid('gopi', 'iisc');</script><br>
 <p class="message">
 K. Gopinath is a professor at Indian Institute of Science in the Computer Science and Automation Department.<br><br>
 His education has been at IIT-Madras (B.Tech'77), University of Wisconsin, Madison (MS'80) and Stanford University (PhD'88). 
@@ -34,110 +35,63 @@ His research interests are primarily in the computer systems area (Operating Sys
 
 ### Ph.D.
 
-
 <table>
-	<tr >
- 		<td>
-	 		&#8281;
-	 	</td>
-	 	<td>
-	 		<img src='images/students/priyankasingla.jpg' width='90' height='100' border='1' />
-	 	</td>
-	 	<td>
-		 	<a href="http://clweb.csa.iisc.ernet.in/priyankasingla/" target="_blank"><b>Priyanka Singla </b></a><br>
-		 	<script language='javascript'>writeid('priyankasingla');</script><br>
-		 	Research Area:
-	 	</td>
-	 </tr>
+{% for member in site.data.phd %}
  	<tr >
  		<td>
 	 		&#8281;
 	 	</td>
 	 	<td>
-	 		<img src='images/students/subhendu.bhadra.jpg' width='90' height='100' border='1' />
+	 		<img src='{{ site.url }}/images/phd/{{ member.id }}.jpg' width='90' height='100' border='1' />
 	 	</td>
 	 	<td>
-		 	<a href="javascript:void(0)" target="_blank"><b>Subhendu Bhadra</b></a><br>
-		 	<script language='javascript'>writeid('subhendu.bhadra');</script><br>
-		 	Research Area:
+		 	<a href="{{ member.homepage }}" target="_blank"><b>{{ member.name }}</b></a><br>
+		 	<script language='javascript'>writeid('{{ member.id }}', '{{ member.domain }}');</script><br>
+		 	Research Area: {{ member.research }}
 	 	</td>
 	 </tr>
+{% endfor %}
 </table>
+
 
 ### MSc Engg
 
- <table>
- 	<tr>
+<table>
+{% for member in site.data.msc %}
+ 	<tr >
  		<td>
 	 		&#8281;
 	 	</td>
 	 	<td>
-	 		<img src='images/students/patel.naman.jpg' width='90' height='100' border='1' />
+	 		<img src='{{ site.url }}/images/msc/{{ member.id }}.jpg' width='90' height='100' border='1' />
 	 	</td>
 	 	<td>
-		 	<a href="javascript:void(0)" target="_blank"><b>Naman Patel</b></a><br>
-		 	<script language='javascript'>writeid('patel.naman');</script><br>
-		 	Research Area: 
+		 	<a href="{{ member.homepage }}" target="_blank"><b>{{ member.name }}</b></a><br>
+		 	<script language='javascript'>writeid('{{ member.id }}', '{{ member.domain }}');</script><br>
+		 	Research Area: {{ member.research }}
 	 	</td>
 	 </tr>
- 	<tr>
- 		<td>
-	 		&#8281;
-	 	</td>
-	 	<td>
-	 		<img src='images/students/arpith.k.jpg' width='90' height='100' border='1' />
-	 	</td>
-	 	<td>
-		 	<a href="http://arpith.xyz" target="_blank"><b>Arpith K</b></a><br>
-		 	<script language='javascript'>writeid('arpith.k');</script><br>
-		 	Research Area: File Systems
-	 	</td>
-	 </tr>
+{% endfor %}
 </table>
-
 
 ### M.E.
 
 <table>
-	<tr>
+{% for member in site.data.me %}
+ 	<tr >
  		<td>
 	 		&#8281;
 	 	</td>
 	 	<td>
-	 		<img src='images/students/ashwin.tv.jpg' width='90' height='100' border='1' />
+	 		<img src='{{ site.url }}/images/me/{{ member.id }}.jpg' width='90' height='100' border='1' />
 	 	</td>
 	 	<td>
-		 	<a href="javascript:void(0)" target="_blank"><b>Ashwin TV </b></a><br>
-		 	<script language='javascript'>writeid('ashwin.tv');</script><br>
-		 	Research Area: 
+		 	<a href="{{ member.homepage }}" target="_blank"><b>{{ member.name }}</b></a><br>
+		 	<script language='javascript'>writeid('{{ member.id }}', '{{ member.domain }}');</script><br>
+		 	Research Area: {{ member.research }}
 	 	</td>
 	 </tr>
- 	<tr>
- 		<td>
-	 		&#8281;
-	 	</td>
-	 	<td>
-	 		<img src='images/students/jawad.t.jpg' width='90' height='100' border='1' />
-	 	</td>
-	 	<td>
-		 	<a href="javascript:void(0)" target="_blank"><b>Jawad T</b></a><br>
-		 	<script language='javascript'>writeid('jawad.t');</script><br>
-		 	Research Area: Operating System Security
-	 	</td>
-	 </tr>
-	 <tr>
- 		<td>
-	 		&#8281;
-	 	</td>
-	 	<td>
-	 		<img src='images/students/muhammed.fazal.jpg' width='90' height='100' border='1' />
-	 	</td>
-	 	<td>
-		 	<a href="javascript:void(0)" target="_blank"><b>Muhammed Fazal</b></a><br>
-		 	<script language='javascript'>writeid('muhammed.fazal');</script><br>
-		 	Research Area: Operating System Security
-	 	</td>
-	 </tr>
+{% endfor %}
 </table>
 
 ### Project Staff
