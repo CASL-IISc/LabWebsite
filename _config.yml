@@ -7,21 +7,16 @@
 
 # Site settings
 title: CASL
-email: arpith.k@csa.iisc.ernet.in
 
 tagline:      'Computer Architecture and Systems Lab'
 description:  'Computer Architecture and Systems Lab'
 
 # the base hostname & protocol for your site
 # do not put `/` at the wnd of url
-url: "http://127.0.0.1:4000" 
+url: "http://drona.csa.iisc.ernet.in/~casl" 
 
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-
-author:
-  name:           'Arpith K'
-  url:            http://arpith.xyz

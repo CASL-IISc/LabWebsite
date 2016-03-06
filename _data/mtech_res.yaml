@@ -1,0 +1,13 @@
+- name: Patel Naman 
+  id: patel.naman
+  domain: iisc
+  research: 
+  homepage: javascript:void(0)
+  image: patel.naman.jpg
+  
+- name: Arpith K
+  id: arpith.k
+  domain: iisc
+  research: Operating Systems
+  homepage: http://arpith.xyz/
+  image: arpith.k.jpg

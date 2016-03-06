@@ -42,7 +42,7 @@ His research interests are primarily in the computer systems area (Operating Sys
 	 		&#8281;
 	 	</td>
 	 	<td>
-	 		<img src='{{ site.url }}/images/phd/{{ member.id }}.jpg' width='90' height='100' border='1' />
+	 		<img src='{{ site.url }}/images/{{ member.image }}' width='90' height='100' border='1' />
 	 	</td>
 	 	<td>
 		 	<a href="{{ member.homepage }}" target="_blank"><b>{{ member.name }}</b></a><br>
@@ -57,13 +57,13 @@ His research interests are primarily in the computer systems area (Operating Sys
 ### M.Sc. Engg
 
 <table>
-{% for member in site.data.msc %}
+{% for member in site.data.mtech_res %}
  	<tr >
  		<td>
 	 		&#8281;
 	 	</td>
 	 	<td>
-	 		<img src='{{ site.url }}/images/msc/{{ member.id }}.jpg' width='90' height='100' border='1' />
+	 		<img src='{{ site.url }}/images/{{ member.image }}' width='90' height='100' border='1' />
 	 	</td>
 	 	<td>
 		 	<a href="{{ member.homepage }}" target="_blank"><b>{{ member.name }}</b></a><br>
@@ -84,7 +84,7 @@ His research interests are primarily in the computer systems area (Operating Sys
 	 		&#8281;
 	 	</td>
 	 	<td>
-	 		<img src='{{ site.url }}/images/me/{{ member.id }}.jpg' width='90' height='100' border='1' />
+	 		<img src='{{ site.url }}/images/{{ member.image }}' width='90' height='100' border='1' />
 	 	</td>
 	 	<td>
 		 	<a href="{{ member.homepage }}" target="_blank"><b>{{ member.name }}</b></a><br>
@@ -105,7 +105,7 @@ His research interests are primarily in the computer systems area (Operating Sys
 	 		&#8281;
 	 	</td>
 	 	<td>
-	 		<img src='{{ site.url }}/images/ra/{{ member.id }}.jpg' width='90' height='100' border='1' />
+	 		<img src='{{ site.url }}/images/{{ member.image }}' width='90' height='100' border='1' />
 	 	</td>
 	 	<td>
 		 	<a href="{{ member.homepage }}" target="_blank"><b>{{ member.name }}</b></a><br>
@@ -126,7 +126,7 @@ His research interests are primarily in the computer systems area (Operating Sys
 	 		&#8281;
 	 	</td>
 	 	<td>
-	 		<img src='{{ site.url }}/images/project/{{ member.id }}.jpg' width='90' height='100' border='1' />
+	 		<img src='{{ site.url }}/images/{{ member.image }}' width='90' height='100' border='1' />
 	 	</td>
 	 	<td>
 		 	<a href="{{ member.homepage }}" target="_blank"><b>{{ member.name }}</b></a><br>
