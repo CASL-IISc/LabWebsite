@@ -12,7 +12,7 @@ tagline:      'Computer Architecture and Systems Lab'
 description:  'Computer Architecture and Systems Lab'
 
 # the base hostname & protocol for your site
-# do not put `/` at the wnd of url
+# do not put `/` at the end of url
 url: "http://drona.csa.iisc.ernet.in/~casl" 
 
 

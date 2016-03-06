@@ -10,6 +10,17 @@ title: Contact Us
 Prof. K. Gopinath
 Room 233
 Department of Computer Science and Automation
+Telephone: 
+(080) 2293-2778 (direct) or, if non-functional, 
+(080) 2293-2368/86 (CSA dept office) 
+Fax: (080) 2360 2911 
+</pre>
+<pre>
+Kushael
+Room no 314
+Department of Computer Science and Automation
+akushal-@-csa.iisc.ernet.in
+Phone: 2293-2368 
 </pre>
 <pre>
 Lab no 319/314
