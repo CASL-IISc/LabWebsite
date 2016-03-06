@@ -54,7 +54,7 @@ His research interests are primarily in the computer systems area (Operating Sys
 </table>
 
 
-### M.Sc. Engg
+### M.Tech (Research) / M.Sc. Engg
 
 <table>
 {% for member in site.data.mtech_res %}
@@ -75,7 +75,7 @@ His research interests are primarily in the computer systems area (Operating Sys
 </table>
 
 
-### M.E.
+### M.Tech / M.E.
 
 <table>
 {% for member in site.data.me %}

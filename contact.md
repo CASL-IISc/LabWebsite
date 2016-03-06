@@ -20,7 +20,7 @@ Kushael
 Room no 314
 Department of Computer Science and Automation
 akushal-@-csa.iisc.ernet.in
-Phone: 2293-2368 
+Telephone: (080) 2293-2368 
 </pre>
 <pre>
 Lab no 319/314

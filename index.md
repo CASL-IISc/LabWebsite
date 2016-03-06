@@ -39,6 +39,6 @@ The following are some of the areas in which we work on:
 
 ***
 
-Have questions or suggestions? Feel free to [contact us](contact.html).
+Have questions or suggestions? Feel free to [contact us](contact).
 
 Thanks for stopping by!
