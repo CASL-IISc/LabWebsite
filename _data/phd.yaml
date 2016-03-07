@@ -1,7 +1,7 @@
 - name: Priyanka Singla
   id: priyankasingla
   domain: iisc
-  research: 
+  research: Distributed Systems
   homepage: http://clweb.csa.iisc.ernet.in/priyankasingla/
   image: priyankasingla.jpg
   
@@ -11,3 +11,11 @@
   research: 
   homepage: javascript:void(0)
   image: subhendu.bhadra.jpg
+
+- name: Aravinda Prasad
+  id: aravinda
+  domain: iisc
+  research: Operating Systems
+  homepage: javascript:void(0)
+  image: aravinda.jpg
+
