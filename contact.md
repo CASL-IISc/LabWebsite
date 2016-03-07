@@ -17,12 +17,14 @@ Fax: (080) 2360 2911
 </pre>
 <pre>
 Kushael
+Secretarial Trainee
 Room no 314
 Department of Computer Science and Automation
 akushal-@-csa.iisc.ernet.in
 Telephone: (080) 2293-2368 
 </pre>
 <pre>
+Students
 Lab no 319/314
 Department of Computer Science and Automation
 Indian Institute of Science
