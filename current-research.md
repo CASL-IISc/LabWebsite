@@ -5,7 +5,7 @@ title: Current Research Work
 
 ***
 
-### Hadoop Performanmce Optimization:
+### Hadoop Performance Optimization:
 The Hadoop MapReduce framework is quite popular in big data analytics. It has various configuration parameters which play an important role in deciding the performance, that is the execution time of a given job. Default values of these parameters do not always result in good performance and hence it is important to tune them. However, tuning the parameters manually is not very easy because of the large and complex nature of the search space. The simultaneous perturbation stochastic approximation (SPSA) algorithm is a noisy gradient algorithm that has been successfully deployed for parameter tuning in a variety of applications ranging from traffic control to service systems. The algorithm tunes the parameters by directly observing the performance of the real system and is independent of parameter dimensions and requires only 2 or fewer observations per iteration. We are working on tuning the parameters using the Simultaneous Perturbation Stochastic Approximation (SPSA) algorithm in order to achieve better performance than the default configuration.
 
 ### Optimizing power and fragmentation in physical memory:
