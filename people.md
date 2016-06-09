@@ -39,7 +39,7 @@ His research interests are primarily in the computer systems area (Operating Sys
 {% for member in site.data.phd %}
  	<tr >
  		<td>
-	 		&#8281;
+	 		&#8226;
 	 	</td>
 	 	<td>
 	 		<img src='{{ site.url }}/images/{{ member.image }}' width='90' height='100' border='1' />
@@ -60,7 +60,7 @@ His research interests are primarily in the computer systems area (Operating Sys
 {% for member in site.data.mtech_res %}
  	<tr >
  		<td>
-	 		&#8281;
+	 		&#8226;
 	 	</td>
 	 	<td>
 	 		<img src='{{ site.url }}/images/{{ member.image }}' width='90' height='100' border='1' />
@@ -81,7 +81,7 @@ His research interests are primarily in the computer systems area (Operating Sys
 {% for member in site.data.me %}
  	<tr >
  		<td>
-	 		&#8281;
+	 		&#8226;
 	 	</td>
 	 	<td>
 	 		<img src='{{ site.url }}/images/{{ member.image }}' width='90' height='100' border='1' />
@@ -102,7 +102,7 @@ His research interests are primarily in the computer systems area (Operating Sys
 {% for member in site.data.ra %}
  	<tr >
  		<td>
-	 		&#8281;
+	 		&#8226;
 	 	</td>
 	 	<td>
 	 		<img src='{{ site.url }}/images/{{ member.image }}' width='90' height='100' border='1' />
@@ -123,7 +123,7 @@ His research interests are primarily in the computer systems area (Operating Sys
 {% for member in site.data.project %}
  	<tr >
  		<td>
-	 		&#8281;
+	 		&#8226;
 	 	</td>
 	 	<td>
 	 		<img src='{{ site.url }}/images/{{ member.image }}' width='90' height='100' border='1' />
@@ -137,4 +137,26 @@ His research interests are primarily in the computer systems area (Operating Sys
 {% endfor %}
 </table>
 
+
+### Intern
+
+<table>
+{% for member in site.data.intern %}
+ 	<tr >
+ 		<td>
+	 		&#8226;
+	 	</td>
+	 	<td>
+	 		<img src='{{ site.url }}/images/{{ member.image }}' width='90' height='100' border='1' />
+	 	</td>
+	 	<td>
+		 	<a href="{{ member.homepage }}" target="_blank"><b>{{ member.name }}</b></a><br>
+		 	<script language='javascript'>writeid('{{ member.id }}', '{{ member.domain }}');</script><br>
+		 	Research Area: {{ member.research }}
+	 	</td>
+	 </tr>
+{% endfor %}
+</table>
+
+***
 ***
