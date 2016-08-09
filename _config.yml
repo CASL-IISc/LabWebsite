@@ -13,7 +13,7 @@ description:  'Computer Architecture and Systems Lab'
 
 # the base hostname & protocol for your site
 # do not put `/` at the end of url
-url: "http://drona.csa.iisc.ernet.in/~casl"
+url: "http://drona.csa.iisc.ac.in/~casl"
 #url: "http://localhost:4000"
 
 

@@ -1,0 +1,59 @@
+- name: Ashwin TV 
+  id: ashwin.tv
+  domain: iisc
+  research: 
+  homepage: javascript:void(0)
+  image: ashwin.tv.jpg
+  year: 2016
+  employment: Nutanix
+  degree: M.E.
+
+- name: Jawad T
+  id: jawad.t
+  domain: iisc
+  research: Operating Systems Security
+  homepage: javascript:void(0)
+  image: jawad.t.jpg
+  year: 2016
+  employment: Microsoft
+  degree: M.E.
+
+- name: Muhammed Fazal E
+  id: muhammed.fazal
+  domain: iisc
+  research: Operating Systems Security
+  homepage: javascript:void(0)
+  image: muhammed.fazal.jpg
+  year: 2016
+  employment: Nvidia
+  degree: M.E.
+
+- name: Vemula Srimithra
+  id: vemula.srimithra
+  domain: iisc
+  research: 
+  homepage: javascript:void(0)
+  image: vemula.srimithra.jpg
+  year: 2016
+  employment: Citrix
+  degree: M.E.
+
+- name: Ashish Panwar
+  id: Ashish
+  domain: 
+  research: 
+  homepage: javascript:void(0)
+  image: default-profile.png
+  year: 2016
+  employment: Intel India Pvt Ltd
+  degree: M.Sc (Engg)
+
+- name: Sankalp Verma
+  id: sankalpverma.7837
+  domain: gmail.com
+  research: Electronics and Embedded Systems 
+  homepage: javascript:void(0)
+  year: 2016
+  image: sankalp.jpg
+  degree: Intern
+  employment: Thapar University

@@ -77,6 +77,8 @@ His research interests are primarily in the computer systems area (Operating Sys
 
 ### M.Tech / M.E.
 
+* [Alumni](alumni)
+
 <table>
 {% for member in site.data.me %}
  	<tr >
@@ -138,7 +140,7 @@ His research interests are primarily in the computer systems area (Operating Sys
 </table>
 
 
-### Intern
+<!-- ### Intern
 
 <table>
 {% for member in site.data.intern %}
@@ -157,6 +159,18 @@ His research interests are primarily in the computer systems area (Operating Sys
 	 </tr>
 {% endfor %}
 </table>
+ -->
+ 
+### Alumni
+<table>
+	<td>
+	 	&#8226;
+	 </td>
+	 <td>
+	 	<a href="alumni/"><b>View</b></a>
+	 </td>
+</table>
+
 
 ***
 ***

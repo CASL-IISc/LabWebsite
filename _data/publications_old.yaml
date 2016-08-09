@@ -1,62 +1,62 @@
 - authors: Niranjan K. Boora, Chiranjib Bhattacharyya, K. Gopinath
   name: Efficient Algorithms for Intrusion detection
   conference: ICDCIT 2004, LNCS3347.
-  link: http://drona.csa.iisc.ernet.in/~gopi/docs/boora04.pdf
+  link: http://drona.csa.iisc.ac.in/~gopi/docs/boora04.pdf
 
 - authors: Matti Luukkainen, Vivek K. Shanbhag, K. Gopinath
   name: Verifying a UMTS protocol using Spin and EASN
   conference: Electronic Notes in Theoretical Computer Science, Vol 118, Feb 2005. Also in Software Verification and Validation Workshop, Mumbai, Dec 2003. 
-  link: http://drona.csa.iisc.ernet.in/~gopi/docs/matti03.pdf
+  link: http://drona.csa.iisc.ac.in/~gopi/docs/matti03.pdf
 
 - authors: K. Gopinath
   name: Register Allocation
   conference: "in The Compiler Design Handbook:
 Optimizations and Machine Code Generation, CRC Press, 2002. [Book Chapter]"
-  link: http://drona.csa.iisc.ernet.in/~gopi/comp/3.ps.gz
+  link: http://drona.csa.iisc.ac.in/~gopi/comp/3.ps.gz
 
 - authors: Neeraj Jaggi, K. Gopinath
   name: Verification of Leader Election Algorithm in Timed Asynchronous Systems
   conference: FST&TCS, Bangalore, Dec'01. LNCS 2245.
-  link: http://drona.csa.iisc.ernet.in/~gopi/docs/jaggi01.ps.gz
+  link: http://drona.csa.iisc.ac.in/~gopi/docs/jaggi01.ps.gz
 
 - authors: Suresh Babu, K. Gopinath
   name: A Persistent Snapshot Device Driver for Linux
   conference: 2001 Annual Linux Showcase/Usenix, Oakland, CA Nov 6-10, 2001.
-  link: http://drona.csa.iisc.ernet.in/~gopi/docs/als_l30.ps.gz
+  link: http://drona.csa.iisc.ac.in/~gopi/docs/als_l30.ps.gz
 
 - authors: Venkatesh P., K. Gopinath
   name: The Design, Implementation and Framework for a Linux based Temperature Sensitive Storage
   conference: 2001 Annual Linux Showcase/Usenix, Oakland, CA Nov 6-10, 2001.
-  link: http://drona.csa.iisc.ernet.in/~gopi/docs/venkip.ps.gz
+  link: http://drona.csa.iisc.ac.in/~gopi/docs/venkip.ps.gz
 
 - authors: Vivek K. Shanbhag, K. Gopinath, Markku Turunen, Ari Ahtiainen, Matti Luukkainen
   name:  "EASN: Integrating ASN.1 and Model Checking"
   conference: "13th
 Conference on Computer Aided Verification CAV'01, July 18-23, 2001
 Paris, France LNCS 2102."
-  link: http://drona.csa.iisc.ernet.in/~gopi/docs/cav01.ps.gz
+  link: http://drona.csa.iisc.ac.in/~gopi/docs/cav01.ps.gz
 
 - authors: Mansoor Ali Khan, K. Gopinath
   name: Predictable Management of System Resources for Linux
   conference: 26th USENIX/FREENIX Annual Technical Conf, Boston, Jun'01.
-  link: http://drona.csa.iisc.ernet.in/~gopi/docs/mansoor01.ps.gz
+  link: http://drona.csa.iisc.ac.in/~gopi/docs/mansoor01.ps.gz
 
 - authors: Vivek K. Shanbhag and K. Gopinath
   name: A SPIN-based Model Checker for Telecommunication Protocols
   conference: 8th International SPIN Workshop on Model Checking of Software (SPIN'2001), May 19-20, 2001, Toronto, Canada LNCS 2057.
-  link: http://drona.csa.iisc.ernet.in/~gopi/docs/submitx-spin01.ps.gz
+  link: http://drona.csa.iisc.ac.in/~gopi/docs/submitx-spin01.ps.gz
 
 - authors: K. Gopinath, Nitin Muppalaneni, N.Suresh Kumar, Pankaj Risbood
   name: "A 3-tier RAID Storage System with RAID1, RAID5 and compressed RAID5 for Linux"
   conference: 25th USENIX/FREENIX Annual Technical Conf, San Diego, Jun'00 (USENIX2000)
-  link: http://drona.csa.iisc.ernet.in/~gopi/docs/freenix3.ps.gz
+  link: http://drona.csa.iisc.ac.in/~gopi/docs/freenix3.ps.gz
 
 - authors: K. Gopinath, M.K.Krishna Narasimhan, B.H.Lim, Anant Agarwal
   name: Performance Evaluation of Switch-Blocking on Multi-threaded Architectures
   conference: International Conference on Parallel Processing, Chicago, Aug '94.
-  link: http://drona.csa.iisc.ernet.in/~gopi/docs/icpp94.pdf
+  link: http://drona.csa.iisc.ac.in/~gopi/docs/icpp94.pdf
 
 - authors: K. Gopinath and John L. Hennessy
   name: Copy Elimination in Functional Languages
   conference: Proceedings of ACM Symposium on Principles of Programming Languages (POPL), Austin, Texas, Jan '89.
-  link: http://drona.csa.iisc.ernet.in/~gopi/docs/sem2c.pdf
+  link: http://drona.csa.iisc.ac.in/~gopi/docs/sem2c.pdf

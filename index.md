@@ -31,7 +31,7 @@ The following are some of the areas in which we work on:
 ***
 
 ## Latest Publications
-* [Prudent Memory Reclamation in Procrastination based Synchronization]()
+* [Prudent Memory Reclamation in Procrastination based Synchronization](http://dl.acm.org/citation.cfm?id=2872405)
 <b>Aravinda Prasad, K Gopinath</b> ASPLOS 2016
 * [More &#8608;](publications)
 
