@@ -1,0 +1,159 @@
+---
+layout: page
+title: People - CASL - IISc
+---
+
+<style>
+		td {
+    height: 50px;
+    vertical-align: middle;
+}
+		</style>
+
+		<script language="javascript">
+
+	function nospam(id, domain) {
+	    var at = "@";
+	    if(domain.localeCompare("iisc") == 0)
+	    	domain = "csa.iisc.ernet.in";
+	    return id + at + domain;
+	}
+
+	function writeid(id, domain) {
+	    document.write("<a href=\"mailto:" + nospam(id, domain) +"\">" + nospam(id, domain) + "</a>");
+}
+</script>
+
+<!-- Content -->
+<section>
+	<header class="main">
+		<h1>People</h1>
+	</header>
+
+	<span class="image main"><img src="{{site.url}}/images/2.jpg" alt="" /></span>
+
+	<hr class="major" />
+
+	<h2>Convenor</h2>
+	<a href="http://drona.csa.iisc.ernet.in/~gopi/" target="_blank"><h3>K. Gopinath (कांचि गोपीनाथ)</h3></a>
+
+	<p>K. Gopinath is a professor at Indian Institute of Science in the Computer Science and Automation Department.<br><br>
+His education has been at IIT-Madras (B.Tech'77), University of Wisconsin, Madison (MS'80) and Stanford University (PhD'88). 
+He has also worked at AMD (Sunnyvale) ('80-'82), and as a PostDoc ('88-'89) at Stanford, and also briefly at Sun Microsystems Labs ('90).<br><br>
+His research interests are primarily in the computer systems area (Operating Systems, Storage Systems, Systems Security and Systems Verification).</p>
+
+
+	{% for member in site.data.phd %}
+	{% unless forloop.length == 0 %}
+	<hr class="major" />
+	<h2>Ph.D.</h2>
+	{% break %}
+	{% endunless %}
+	{% endfor %}
+	<table>
+	<col width="20%">
+	<tbody>
+	{% for member in site.data.phd %}
+ 	<tr>
+	 	<td>
+	 		<img src="{{ site.url }}/images/people/{{ member.image }}" width="90" height="100" border="1" />
+	 	</td>
+	 	<td>
+		 	<strong style="font-size: 110%">{{ member.name }}</strong><br/>
+		 	<script language='javascript'>writeid('{{ member.id }}', '{{ member.domain }}');</script><br>
+		 	Research Area: {{ member.research }}<br/>
+		 	{% unless member.homepage == 'javascript:void(0)' %}
+		 	<i><a href="{{ member.homepage }}" target="_blank">{{ member.homepage }}</a></i>
+		 	{% endunless %}
+	 	</td>
+	</tr>
+	{% endfor %}
+	</tbody>
+	</table>
+
+	{% for member in site.data.mtech_res %}
+	{% unless forloop.length == 0 %}
+	<hr class="major" />
+	<h2>M.Tech (Research) / M.Sc. Engg</h2>
+	{% break %}
+	{% endunless %}
+	{% endfor %}
+	<table>
+	<col width="20%">
+	<tbody>
+	{% for member in site.data.mtech_res %}
+ 	<tr>
+	 	<td>
+	 		<img src="{{ site.url }}/images/people/{{ member.image }}" width="90" height="100" border="1" />
+	 	</td>
+	 	<td>
+		 	<strong style="font-size: 110%">{{ member.name }}</strong><br/>
+		 	<script language='javascript'>writeid('{{ member.id }}', '{{ member.domain }}');</script><br>
+		 	Research Area: {{ member.research }}<br/>
+		 	{% unless member.homepage == 'javascript:void(0)' %}
+		 	<i><a href="{{ member.homepage }}" target="_blank">{{ member.homepage }}</a></i>
+		 	{% endunless %}
+	 	</td>
+	</tr>
+	{% endfor %}
+	</tbody>
+	</table>
+
+	{% for member in site.data.mtech %}
+	{% unless forloop.length == 0 %}
+	<hr class="major" />
+	<h2>M.Tech</h2>
+	{% break %}
+	{% endunless %}
+	{% endfor %}
+	<table>
+	<col width="20%">
+	<tbody>
+	{% for member in site.data.mtech %}
+ 	<tr>
+	 	<td>
+	 		<img src="{{ site.url }}/images/people/{{ member.image }}" width="90" height="100" border="1" />
+	 	</td>
+	 	<td>
+		 	<strong style="font-size: 110%">{{ member.name }}</strong><br/>
+		 	<script language='javascript'>writeid('{{ member.id }}', '{{ member.domain }}');</script><br>
+		 	Research Area: {{ member.research }}<br/>
+		 	{% unless member.homepage == 'javascript:void(0)' %}
+		 	<i><a href="{{ member.homepage }}" target="_blank">{{ member.homepage }}</a></i>
+		 	{% endunless %}
+	 	</td>
+	</tr>
+	{% endfor %}
+	</tbody>
+	</table>
+
+	{% for member in site.data.ra %}
+	{% unless forloop.length == 0 %}
+	<hr class="major" />
+	<h2>Research Assistant / Project Staff</h2>
+	{% break %}
+	{% endunless %}
+	{% endfor %}
+	<table>
+	<col width="20%">
+	<tbody>
+	{% for member in site.data.ra %}
+ 	<tr>
+	 	<td>
+	 		<img src="{{ site.url }}/images/people/{{ member.image }}" width="90" height="100" border="1" />
+	 	</td>
+	 	<td>
+		 	<strong style="font-size: 110%">{{ member.name }}</strong><br/>
+		 	<script language='javascript'>writeid('{{ member.id }}', '{{ member.domain }}');</script><br>
+		 	Research Area: {{ member.research }}<br/>
+		 	{% unless member.homepage == 'javascript:void(0)' %}
+		 	<i><a href="{{ member.homepage }}" target="_blank">{{ member.homepage }}</a></i>
+		 	{% endunless %}
+	 	</td>
+	</tr>
+	{% endfor %}
+	</tbody>
+	</table>
+
+
+</section>

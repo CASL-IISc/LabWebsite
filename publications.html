@@ -1,0 +1,42 @@
+---
+layout: page
+title: Publications - CASL - IISc
+---
+
+<!-- Content -->
+<section>
+	<header class="main">
+		<h1>Publications</h1>
+	</header>
+
+	<hr class="major" />
+
+	<h2>Selected Recent Publications</h2>
+	<ul>
+		{% for member in site.data.publications %}
+		<li><strong>{{  member.name }}</strong>&nbsp;&nbsp;
+			{% unless member.link == 'javascript:void(0)' %}
+			<a href="{{ member.link }}" target="_blank" style="font-size: 70%">view</a>
+			{% endunless %}<br/>
+			{{ member.authors }}<br/>
+			{{ member.conference }}
+		</li>
+		{% endfor %}
+	</ul>
+
+	<hr class="major" />
+
+	<h2>A Few Selected Older Publications</h2>
+	<ul>
+		{% for member in site.data.publications_old %}
+		<li><strong>{{  member.name }}</strong>&nbsp;&nbsp;<a href="{{ member.link }}" target="_blank" style="font-size: 70%">view</a><br/>
+			{{ member.authors }}<br/>
+			{{ member.conference }}
+		</li>
+		{% endfor %}
+	</ul>
+
+	
+
+</section>
+

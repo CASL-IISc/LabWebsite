@@ -1,14 +1,14 @@
-- name: Patel Naman 
-  id: patel.naman
+- name: Ajinkya Rajput 
+  id: ajinkya.rajput
   domain: iisc
-  research: Operating Systems, Memory Management
+  research: 
   homepage: javascript:void(0)
-  image: patel.naman.jpg
+  image: ajinkya.rajput.jpg
   
 - name: Arpith K
   id: arpith.k
   domain: iisc
-  research: Operating Systems
+  research: Operating Systems and Program Analysis
   homepage: http://arpith.xyz/
   image: arpith.k.jpg
 

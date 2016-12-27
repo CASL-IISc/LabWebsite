@@ -1,3 +1,8 @@
+- authors: Ashish Panwar, Naman Patel, K. Gopinath
+  name: A Case for Protecting Huge Pages from the Kernel
+  conference: ApSys 2016
+  link: http://dl.acm.org/citation.cfm?id=2967371
+
 - authors: Aravinda Prasad, K Gopinath
   name: Prudent Memory Reclamation in Procrastination based Synchronization
   conference: ASPLOS 2016.
@@ -6,7 +11,7 @@
 - authors: Lan Zhou, Vijay Varadharajan, K. Gopinath
   name: A Secure Role-based Cloud Storage System for Encrypted Patient Centric Health Records
   conference: Computer Journal, 2016
-  link: javascript:void(0)
+  link: http://comjnl.oxfordjournals.org/content/59/11/1593
 
 - authors: Ashish Panwar and Kanchi Gopinath
   name: Improving Power and Memory-Hotplug with a Migration Friendly Buddy Allocator

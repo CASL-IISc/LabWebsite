@@ -1,0 +1,91 @@
+---
+layout: page
+title: Alumni - CASL - IISc
+---
+
+<style>
+		td {
+    height: 50px;
+    vertical-align: middle;
+}
+		</style>
+
+		<script language="javascript">
+
+	function nospam(id, domain) {
+	    var at = "@";
+	    if(domain.localeCompare("iisc") == 0)
+	    	domain = "csa.iisc.ernet.in";
+	    return id + at + domain;
+	}
+
+	function writeid(id, domain) {
+	    document.write("<a href=\"mailto:" + nospam(id, domain) +"\">" + nospam(id, domain) + "</a>");
+}
+</script>
+
+<!-- Content -->
+<section>
+	<header class="main">
+		<h1>Alumni</h1>
+	</header>
+
+	<span class="image main"><img src="{{site.url}}/images/3.jpg" alt="" /></span>
+
+	<table>
+	<thead>
+<tr>
+ 		<td>
+		 	
+	 	</td>
+	 	<td>
+		 	<b>Name</b>
+	 	</td>
+	 	<td>
+		 	<b>Year</b>
+	 	</td>
+	 	<td>
+		 	<b>Degree</b>
+	 	</td>
+	 	<td>
+		 	<b>First Employment</b>
+	 	</td>
+	 	<td>
+	 		<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="100" width="90" id="{{ member.id }}" style="zindex: 100; position: absolute;" >
+	 	</td>
+	</tr>
+	</thead>
+{% for member in site.data.alumni %}
+ 	<tr>
+ 		<td>
+		 	&#8226;
+	 	</td>
+	 	<td>
+		 	<a href="{{ member.homepage }}" target="_blank"
+		 		onmouseover="document.getElementById('{{ member.id }}').src='{{ site.url }}/images/people/{{ member.image }}';"
+  				onmouseout="document.getElementById('{{ member.id }}').src='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7';"
+		 	>
+		 		<b>{{ member.name }}</b>
+		 	
+		 	</a>
+	 	</td>
+	 	<td>
+		 	{{ member.year }}
+	 	</td>
+	 	<td>
+		 	{{ member.degree }}
+	 	</td>
+	 	<td>
+		 	{{ member.employment }}
+	 	</td>
+	 	<td>
+	 		<img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" height="100" width="90" id="{{ member.id }}" style="zindex: 100; position: absolute;" >
+	 	</td>
+	</tr>
+{% endfor %}
+</table>
+
+<p>Note:<br/>
+This page is only being updated since 2016. For the complete list visit <a href="http://www.csa.iisc.ac.in/people/people-alumni.php" target="_blank">CSA</a></p>
+
+</section>

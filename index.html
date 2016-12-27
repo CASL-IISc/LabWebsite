@@ -1,0 +1,68 @@
+---
+layout: page
+title:  "CASL &middot; Indian Institute of Science"
+---
+<!-- Banner -->
+<section id="banner">
+	<div class="content">
+		<header>
+			<h1>CASL</h1>
+			<p>Computer Architecture and Systems Lab</p>
+		</header>
+		<p>Welcome to Computer Architecture and Systems Lab in the Department of Computer Science and Automation, Indian Institute of Science, Bangalore</p>
+		
+	</div>
+	<span class="image object">
+		<img src="images/1.jpg" alt="" />
+	</span>
+</section>
+
+<section>
+	<header class="major">
+		<h2>Areas of Research</h2>
+	</header>
+
+	<div class="features">
+
+		{% for member in site.data.areasofres %}
+		<article>
+			<div class="content">
+				<h3>{{ member.area }}</h3>
+			</div>
+		</article>
+		{% endfor %}
+		
+	</div>
+	<ul class="actions">
+		<li><a href="{{site.url}}/archive/CASLposter.pdf" class="button special">Poster</a></li><br/><br/>
+		<li><a href="{{site.url}}/current-research/" class="button special">Current Research Work</a></li>
+	</ul>
+</section>
+
+<section>
+	<header class="major">
+		<h2>Latest Publications</h2>
+	</header>
+	<div class="posts">
+		{% for member in site.data.publications %}
+		{% if forloop.index < 4 %}
+		<article>
+			<h3>{{  member.name }}</h3>
+			<p><b>{{ member.authors }}</b> <br/>{{ member.conference }}</p>
+			<ul class="actions">
+				<li><a href="{{ member.link }}" class="button" target="_blank">View</a></li>
+			</ul>
+		</article>
+		{% endif %}
+		{% endfor %}
+	</div>
+	<ul class="actions">
+		<li><a href="{{site.url}}/publications/" class="button special">View More</a></li>
+	</ul>
+</section>
+
+<section>
+	<p>Have questions or suggestions? Feel free to <a href="{{site.url}}/contact/">contact us</a>.
+	<br/>
+	Thanks for stopping by!</p>
+</section>

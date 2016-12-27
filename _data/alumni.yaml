@@ -1,3 +1,23 @@
+- name: Naman Patel 
+  id: patel.naman
+  domain: iisc
+  research: 
+  homepage: javascript:void(0)
+  image: patel.naman.jpg
+  year: 2017
+  employment: Nvidia
+  degree: M.Sc (Engg)
+
+- name: Ashish Panwar
+  id: Ashish
+  domain: 
+  research: 
+  homepage: javascript:void(0)
+  image: default-profile.png
+  year: 2016
+  employment: Intel India Pvt Ltd
+  degree: M.Sc (Engg)
+
 - name: Ashwin TV 
   id: ashwin.tv
   domain: iisc
@@ -37,16 +57,6 @@
   year: 2016
   employment: Citrix
   degree: M.E.
-
-- name: Ashish Panwar
-  id: Ashish
-  domain: 
-  research: 
-  homepage: javascript:void(0)
-  image: default-profile.png
-  year: 2016
-  employment: Intel India Pvt Ltd
-  degree: M.Sc (Engg)
 
 - name: Sankalp Verma
   id: sankalpverma.7837
