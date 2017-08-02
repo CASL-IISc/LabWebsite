@@ -1,0 +1,43 @@
+---
+layout: page
+title: Alumni - CASL - IISc
+---
+
+<style>
+		td {
+    height: 50px;
+    vertical-align: middle;
+}
+		</style>
+
+		<script language="javascript">
+
+	function nospam(id, domain) {
+	    var at = "@";
+	    if(domain.localeCompare("iisc") == 0)
+	    	domain = "csa.iisc.ernet.in";
+	    return id + at + domain;
+	}
+
+	function writeid(id, domain) {
+	    document.write("<a href=\"mailto:" + nospam(id, domain) +"\">" + nospam(id, domain) + "</a>");
+}
+</script>
+
+<!-- Content -->
+<section>
+	<header class="main">
+		<h1>Gallery</h1>
+	</header>
+
+	<hr class="major" />
+
+	<h2>2017</h2>
+	<span class="image main"><img src="{{site.url}}/images/DSC_0004.JPG" alt="" /></span>
+
+	<hr class="major" />
+	<h2>2016</h2>
+	<span class="image main"><img src="{{site.url}}/images/2.jpg" alt="" /></span>
+	<span class="image main"><img src="{{site.url}}/images/3.jpg" alt="" /></span>
+
+</section>

@@ -16,6 +16,8 @@ title: People - CASL - IISc
 	    var at = "@";
 	    if(domain.localeCompare("iisc") == 0)
 	    	domain = "csa.iisc.ernet.in";
+	    if(domain.localeCompare("iiscnew") == 0)
+	    	domain = "iisc.ac.in";
 	    return id + at + domain;
 	}
 
@@ -29,8 +31,6 @@ title: People - CASL - IISc
 	<header class="main">
 		<h1>People</h1>
 	</header>
-
-	<span class="image main"><img src="{{site.url}}/images/2.jpg" alt="" /></span>
 
 	<hr class="major" />
 
@@ -154,6 +154,8 @@ His research interests are primarily in the computer systems area (Operating Sys
 	{% endfor %}
 	</tbody>
 	</table>
+
+	<span class="image main"><img src="{{site.url}}/images/2.jpg" alt="" /></span>
 
 
 </section>

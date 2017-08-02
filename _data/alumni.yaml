@@ -1,3 +1,14 @@
+- name: Sandeep Kumar
+  id: sandeep007734
+  domain: gmail.com
+  research: Distributed Systems, Machine Learning 
+  homepage: http://clweb.csa.iisc.ernet.in/sandeep.kumar
+  image: sandeep.jpg
+  year: 2017
+  employment: PhD, IIT Delhi
+  degree: Project Assistant
+
+
 - name: Naman Patel 
   id: patel.naman
   domain: iisc

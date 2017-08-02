@@ -1,13 +1,13 @@
 - name: Ajinkya Rajput 
-  id: ajinkya.rajput
-  domain: iisc
+  id: ajinkya
+  domain: iiscnew
   research: 
   homepage: javascript:void(0)
   image: ajinkya.rajput.jpg
   
 - name: Arpith K
-  id: arpith.k
-  domain: iisc
+  id: arpith
+  domain: iiscnew
   research: Operating Systems and Program Analysis
   homepage: http://arpith.xyz/
   image: arpith.k.jpg

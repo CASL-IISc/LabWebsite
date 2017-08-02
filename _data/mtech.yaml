@@ -1,9 +1,9 @@
-# - name: Ashwin TV 
-#   id: ashwin.tv
-#   domain: iisc
-#   research: 
-#   homepage: javascript:void(0)
-#   image: ashwin.tv.jpg
+- name: Gajabe Pratik Ravindra 
+  id: gajabe
+  domain: iiscnew
+  research: OCR
+  homepage: javascript:void(0)
+  image: pratik.gajabe.png
 
 # - name: Jawad T
 #   id: jawad.t
