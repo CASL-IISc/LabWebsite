@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: CASL
 email: your-email@domain.com
-url: "http://drona.csa.iisc.ernet.in/~casl" # the base hostname & protocol for your site
+url: "https://drona.csa.iisc.ac.in/~casl" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
